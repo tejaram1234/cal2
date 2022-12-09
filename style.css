@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.maincontainer {
+    width: 25vw;
+    height: 50vh;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin: auto;
+    border-radius: 8px;
+}
+
+.subcontainer {
+    width: 90%;
+    height: 70%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.row {
+    width: 90%;
+    height: 15%;
+    /* border: 2px solid red; */
+    margin-bottom: 1rem;
+    display: flex;
+}
+h1{
+    color: white;
+}
+.white {
+    width: 90%;
+    height: 100%;
+    /* border: 2px solid red; */
+    background-color: white;
+    border-radius: 4px;
+}
+
+.c {
+    width: 10%;
+    height: 100%;
+    margin-left: 1px;
+    /* border: 2px solid red; */
+    background-color: #fc0067;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number {
+    width: 30%;
+    height: 100%;
+    /* border: 2px solid red; */
+    margin-right: 1.5rem;
+    background-color: #65268f;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.operator {
+    width: 15%;
+    height: 100%;
+    /* border: 2px solid red; */
+    /* margin-left: 1rem; */
+    background-color: #65268f;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.equal {
+    width: 28%;
+    height: 100%;
+    /* border: 2px solid red; */
+    margin-right: 1.5rem;
+    background-color: #fc0067;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
